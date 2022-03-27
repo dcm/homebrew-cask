@@ -15,7 +15,7 @@ cask "c0re100-qbittorrent" do
   conflicts_with cask: "qbittorrent"
   depends_on macos: ">= :sierra"
 
-  app "qbittorrent.app"
+  app "qBittorrent.app"
 
   zap trash: [
     "~/.config/qBittorrent",
